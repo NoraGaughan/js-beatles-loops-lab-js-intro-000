@@ -21,4 +21,4 @@ function iLoveTheBeatles(number) { var array = [];
 do {
   array.push("I love the Beatles!"); 
 number += 1 } 
-while 
+while (number <15) 
