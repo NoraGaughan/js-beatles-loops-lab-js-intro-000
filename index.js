@@ -1,3 +1,5 @@
+'use strict';
+
 function theBeatlesPlay(musicians, instruments) {
   var array = [];
   for (var i = 0; i < musicians.length; i++) {
@@ -6,17 +8,16 @@ function theBeatlesPlay(musicians, instruments) {
   return array;
 }
 
-var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout",
-"He hated the sound of his own voice"];
-
-function johnLennonFacts(facts) {
+function johnLennonFacts() {
+  var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
+  var array = [];
   var i = 0;
-    while (i < facts.length) {
-       facts[i] += "!!!";
-     i++;
-    }
-    console.log(facts);
+  while (array.length < facts.length) {
+    array.push(facts[i] + "!!!");
+    i++;
   }
+  return array;
+}
 
 function iLoveTheBeatles(number) {
   var array = [];
