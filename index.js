@@ -10,7 +10,7 @@ var facts = ["He was the last Beatle to learn to drive", "He was never a vegetar
 "He hated the sound of his own voice"];
 
 function johnLennonFacts(facts) {
-var newFacts=[];
+var newFacts=[trument Lennon learned to play!!!', 'undefined!!!', 'undefined!!!' ] to equal [ 'While on tour, he enjoyed playing Monopoly!!!', 'Harmonica was the first instrument Lennon learned to play!!!'];
 var i = 0;
 while (i < 4) {
 
