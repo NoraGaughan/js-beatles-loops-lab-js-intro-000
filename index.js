@@ -10,15 +10,13 @@ var facts = ["He was the last Beatle to learn to drive", "He was never a vegetar
 "He hated the sound of his own voice"];
 
 function johnLennonFacts(facts) {
-var newFacts=['While on tour, he enjoyed playing Monopoly', 'Harmonica was the first instrument Lennon learned to play'];
-var i = 0;
-while (i < 4) {
-
-newFacts[i] = facts[i] + "!!!";
-i++;
-}
-return newFacts;
-}
+  var i = 0;
+    while (i < facts.length) {
+       facts[i] += "!!!";
+     i++;
+    }
+    console.log(facts);
+  }
 
 function iLoveTheBeatles(number) {
   var array = [];
